@@ -44,8 +44,8 @@ function reqHandler(req, res) {
                     db.close();
                 });
         });
-	} else if (/\/difficulty\/(e|i|a)/.test(req.url)) {
-        var trailDifficulty = new RegExp(decodeURIComponent(req.url.match(/\/difficulty\/(ex|e|i|a)/)[1].toString()), "i");
+	} else if (/\/difficulty\/(ex|e|i|a)$/i.test(req.url)) {
+        var trailDifficulty = decodeURIComponent(req.url.match(/\/difficulty\/(ex|e|i|a)$/i)[1].toString());
         var trails;
         var featureCollection = {};
         featureCollection.type = "FeatureCollection";
