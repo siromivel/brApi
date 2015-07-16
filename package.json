@@ -2,6 +2,7 @@
   "name": "brApi",
   "version": "0.1.0",
   "description": "GeoJSON API that feeds brApp",
+  "repository": "https://github.com/siromivel/brApi",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

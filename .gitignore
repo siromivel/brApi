@@ -47,3 +47,4 @@ node_modules
 # Environment Configuration #
 #############################
 config/env/dev
+!config/env/dev/example.dev.json
