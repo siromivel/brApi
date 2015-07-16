@@ -61,6 +61,20 @@ function reqHandler(req, res) {
                 db.close();
             });
         });
+    } else if (/\/location\/.[^\/]*/.test(req.url)) {
+        var parkName = new RegExp(decodeURIComponent(req.url.match(/\/location\/(.[^\/]*)/)[1].toString()), "i");
+
+        MongoDB.connect(dbURI, function(err, db) {
+            if (err) { console.log(err) }
+
+            db.collection('trails').
+                find({ "properties.park": parkName }, { "_id": 0 }).
+                toArray().then(function(docs) {
+                    res.write(JSON.stringify(docs[0]));
+                    res.end();
+                    db.close();
+                });
+        });
     } else {
     	res.write('Invalid URL');
         res.end();
