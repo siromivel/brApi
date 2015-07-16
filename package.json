@@ -1,0 +1,11 @@
+{
+  "name": "brApi",
+  "version": "0.1.0",
+  "description": "GeoJSON API that feeds brApp",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Levi Skye Morris",
+  "license": "ISC"
+}
