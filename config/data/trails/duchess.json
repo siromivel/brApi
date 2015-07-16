@@ -2,7 +2,9 @@
     "type": "Feature",
     "properties": {
         "name": "Duchess",
-        "difficulty": "i"
+        "difficulty": "i",
+        "park": "Angel Fire",
+        "parkID": "13"
     },
     "geometry": {
         "type": "LineString",

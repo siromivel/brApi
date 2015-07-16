@@ -2,7 +2,9 @@
     "type": "Feature",
     "properties": {
         "name": "Combi",
-        "difficulty": "e"
+        "difficulty": "e",
+        "park": "Angel Fire",
+        "parkID": "2"
     },
     "geometry": {
         "type": "LineString",

@@ -2,7 +2,9 @@
     "type": "Feature",
     "properties": {
         "name": "Easy Street a",
-        "difficulty": "e"
+        "difficulty": "e",
+        "park": "Angel Fire",
+        "parkID": "1"
     },
     "geometry": {
         "type": "LineString",
