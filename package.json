@@ -10,7 +10,8 @@
   "author": "Levi Skye Morris",
   "license": "ISC",
   "dependencies": {
-  	"bluebird": "2.9.x",
-  	"mongoose": "4.0.x"
+    "bluebird": "2.9.x",
+    "express": "^4.13.1",
+    "mongoose": "^4.0.7"
   }
 }
