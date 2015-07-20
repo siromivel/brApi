@@ -3,10 +3,11 @@
   "version": "0.1.0",
   "description": "GeoJSON API that feeds brApp",
   "repository": "https://github.com/siromivel/brApi",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "main": "brapi.js",
   "author": "Levi Skye Morris",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "2.9.x",
+    "mongodb": "^4.0.7"
+  }
 }
