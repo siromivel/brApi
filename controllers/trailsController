@@ -1,5 +1,0 @@
-var express = require('express');
-
-	exports.getAll = function(req, res) {
-		
-	};

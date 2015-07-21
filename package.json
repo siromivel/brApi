@@ -1,17 +1,15 @@
 {
-  "name": "brApi",
-  "version": "0.1.0",
-  "description": "GeoJSON API that feeds brApp",
-  "repository": "https://github.com/siromivel/brApi",
-  "main": "server.js",
+  "name": "brapitest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Levi Skye Morris",
+  "author": "",
   "license": "ISC",
   "dependencies": {
-    "bluebird": "2.9.x",
     "express": "^4.13.1",
-    "mongoose": "^4.0.7"
+    "mongoose": "^4.0.8"
   }
 }
