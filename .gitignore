@@ -43,8 +43,3 @@ node_modules
 ##################################
 *.css
 *.html
-
-# Environment Configuration #
-#############################
-config/env/dev
-!config/env/dev/example.dev.json
