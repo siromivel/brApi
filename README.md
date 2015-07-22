@@ -1,8 +1,7 @@
 # brApi #<br />
 brApi provides GeoJSON data for  brApp(https://github.com/pdubs/brApp).<br />
 
-To run this thing: Add the config/env/dev/dev.json file it complains about and the "database" property.
-Database should be the URL of your mongoDB server.
+To run this thing: Set up the database URL in /config/env/development.js
 
 Currently the Master branch is a functioning initial version of the API. It currently supports the following routes:
 
@@ -17,5 +16,3 @@ Currently the Master branch is a functioning initial version of the API. It curr
 <br />/difficulty/%e, i, a or ex%      
     returns all trails of the specified difficulty as a FeatureCollection.<br />
     e = easy(green); i = intermediate(blue); a = advanced(black); ex = extreme(dbl. black);<br />
-
-A major refactor to implement an MVC setup is in progress on the development branch.<br />
