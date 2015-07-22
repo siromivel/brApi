@@ -31,7 +31,7 @@ exports.findByDifficulty = function(req, res, next) {
 };
 
 exports.findByLocation = function(req, res, next) {
-	var loc = new RegExp(req.params.trail, "i");
+	var loc = new RegExp(req.params.loc, "i");
 
 	Trail.find({ "properties.park" : loc }, { "_id" : 0, "__v" : 0 }, {"sort" : "properties.parkID" }, function(err, trails) {
 		if (err) { return next(err) }
