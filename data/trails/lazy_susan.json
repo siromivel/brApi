@@ -4,7 +4,8 @@
         "name": "Lazy Susan",
         "difficulty": "i",
         "park": "Angel Fire",
-        "parkID": "8"
+        "parkID": "8",
+        "segment": 1
     },
     "geometry": {
         "type": "LineString",

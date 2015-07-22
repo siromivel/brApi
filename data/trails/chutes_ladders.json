@@ -4,7 +4,8 @@
         "name": "Chutes & Ladders",
         "difficulty": "i",
         "park": "Angel Fire",
-        "parkID": "15"
+        "parkID": "15",
+        "segment": 1
     },
     "geometry": {
         "type": "LineString",

@@ -4,7 +4,8 @@
         "name": "Pepper Spray",
         "difficulty": "a",
         "park": "Angel Fire",
-        "parkID": "26"
+        "parkID": "26",
+        "segment": 1
     },
     "geometry": {
         "type": "LineString",
@@ -593,11 +594,6 @@
                 -105.25507,
                 36.377146,
                 2935.9
-            ],
-            [
-                -105.255132,
-                36.377189,
-                2934.7
             ]
         ]
     }

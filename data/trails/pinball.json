@@ -4,7 +4,8 @@
         "name": "Pinball",
         "difficulty": "a",
         "park": "Angel Fire",
-        "parkID": "21"
+        "parkID": "21",
+        "segment": 1
     },
     "geometry": {
         "type": "LineString",
