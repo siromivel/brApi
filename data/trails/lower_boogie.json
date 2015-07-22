@@ -4,7 +4,8 @@
         "name": "Lower Boogie",
         "difficulty": "i",
         "park": "Angel Fire",
-        "parkID": "11"
+        "parkID": "11",
+        "segment": 1
     },
     "geometry": {
         "type": "LineString",

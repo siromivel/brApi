@@ -4,7 +4,8 @@
         "name": "World Cup",
         "difficulty": "a",
         "park": "Angel Fire",
-        "parkID": "24"
+        "parkID": "24",
+        "segment": 1
     },
     "geometry": {
         "type": "LineString",

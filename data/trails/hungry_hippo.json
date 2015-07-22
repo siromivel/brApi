@@ -4,7 +4,8 @@
         "name": "Hungry Hippo",
         "difficulty": "a",
         "park": "Angel Fire",
-        "parkID": "27"
+        "parkID": "27",
+        "segment": 1
     },
     "geometry": {
         "type": "LineString",

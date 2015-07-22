@@ -3,14 +3,14 @@
 var mongoose = require('mongoose'),
 	Schema = mongoose.Schema;
 
-
 var TrailSchema = new Schema({
 	type : String,
 	properties : {
 		name : String,
 		difficulty: String,
 		park: String,
-		parkID: Number
+		parkID: Number,
+		segment: Number
 	},
 	geometry : {
 		type : { type : String },

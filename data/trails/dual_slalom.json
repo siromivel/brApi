@@ -4,7 +4,8 @@
         "name": "Dual Slalom",
         "difficulty": "ex",
         "park": "Angel Fire",
-        "parkID": "34"
+        "parkID": "34",
+        "segment": 1
     },
     "geometry": {
         "type": "LineString",

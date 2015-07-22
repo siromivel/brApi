@@ -1,18 +1,4 @@
 {
-<<<<<<< HEAD
-  "name": "brapitest",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.13.1",
-    "mongoose": "^4.0.8"
-=======
   "name": "brApi",
   "version": "0.1.0",
   "description": "GeoJSON API that feeds brApp",
@@ -22,7 +8,7 @@
   "license": "ISC",
   "dependencies": {
     "bluebird": "2.9.x",
+    "cors": "^2.7.1",
     "mongodb": "^4.0.7"
->>>>>>> 54862e2cbfbbf21ec35cdf9aa565354a92e523e5
   }
 }

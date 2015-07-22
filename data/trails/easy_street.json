@@ -1,10 +1,11 @@
 {
     "type": "Feature",
     "properties": {
-        "name": "Easy Street a",
+        "name": "Easy Street",
         "difficulty": "e",
         "park": "Angel Fire",
-        "parkID": "1"
+        "parkID": "1",
+        "segment": 1
     },
     "geometry": {
         "type": "LineString",
