@@ -1,4 +1,6 @@
 # brApi #<br />
+
+[![Join the chat at https://gitter.im/siromivel/brApi](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/siromivel/brApi?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 brApi provides GeoJSON data for  brApp(https://github.com/pdubs/brApp).<br />
 
 To run this thing: Set up the database URL in /config/env/development.js
