@@ -9,6 +9,6 @@
   "dependencies": {
     "bluebird": "2.9.x",
     "cors": "^2.7.1",
-    "mongodb": "^4.0.7"
+    "mongoose": "^1.4.22"
   }
 }
